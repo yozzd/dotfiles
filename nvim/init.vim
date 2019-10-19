@@ -13,7 +13,7 @@ call plug#end()
 
 " Coloring
 syntax on
-set termguicolors
+" set termguicolors
 
 " Config
 filetype plugin indent on
