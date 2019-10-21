@@ -1,7 +1,8 @@
 *background:   #000000
 *foreground:   #eff0eb
 !!*foreground:   #5ab738
-*cursorColor:  #9aedfe
+!!*cursorColor:  #9aedfe
+*cursorColor:  #ffffff
 
 *color0:      #33303b
 *color8:      #4f4b58
@@ -36,6 +37,7 @@ URxvt.iso14755: false
 URxvt.iso14755_52: false
 URxvt*geometry: 65x17
 URxvt.internalBorder: 10
+URxvt*loginShell: true
 
 !! navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007
