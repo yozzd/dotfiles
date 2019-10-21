@@ -27,10 +27,10 @@ font pango:monospace 8
 # exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Lock
-bindsym $mod+x exec i3lock-fancy-rapid 2 "pixel
+bindsym $mod+x exec i3lock-fancy -gp
 
 # Autolock
-exec_always --no-startup-id xautolock -time 5 -locker "i3lock-fancy-rapid 2 \"pixel\""
+exec_always --no-startup-id xautolock -time 5 -locker "i3lock-fancy -gp"
 
 # Gaps
 for_window [class="^.*"] border pixel 0
@@ -259,3 +259,13 @@ client.urgent           $colorblk     $colorblk     $colorwht  $colorblk       $
 client.placeholder      $colorblk     $colorblk     $colorwht  $colorblk       $colorblk
 
 client.background       $colorblk
+
+# display
+set $displayMode Set display mode [l]aptop [h]dmi
+bindsym $mod+Shift+x mode "$displayMode"
+mode "$displayMode" {
+    bindsym l exec --no-startup-id xrandr --output LVDS-1 --auto --output HDMI-1 --off && pacmd set-card-profile 0 "output:analog-stereo+input:analog-stereo", mode "default"
+    bindsym h exec --no-startup-id xrandr --output LVDS-1 --off --output HDMI-1 --auto && pacmd set-card-profile 0 "output:hdmi-stereo+input:analog-stereo", mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
