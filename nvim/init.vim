@@ -1,7 +1,8 @@
 " Plugins
 call plug#begin()
 Plug 'scrooloose/nerdtree'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'luochen1990/rainbow'
 Plug 'sheerun/vim-polyglot'
 Plug 'terryma/vim-multiple-cursors'
@@ -9,6 +10,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'mhinz/vim-startify'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 " Coloring
@@ -26,10 +28,6 @@ set encoding=utf-8
 
 " NERDTree
 let NERDTreeShowHidden = 1
-
-" Deoplete
-let g:deoplete#enable_at_startup = 1
-set completeopt-=preview
 
 " Rainbow Parentheses
 let g:rainbow_active = 1
