@@ -54,3 +54,4 @@ nnoremap <silent><Leader>bh :Startify<CR>
 nnoremap <Leader>ti :IndentGuidesToggle<CR>
 nnoremap <Leader>xd :StripWhitespace<CR>
 nnoremap <Leader>te <C-w>s<C-w>j:terminal<CR>
+nnoremap <Leader>gb :ls<CR>:b<Space>
