@@ -1,0 +1,8 @@
+add-highlighter global/ number-lines -relative -hlcursor
+add-highlighter global/ wrap
+add-highlighter global/ show-matching
+
+set-option global tabstop 2
+set-option global indentwidth 2
+
+colorscheme desertex
