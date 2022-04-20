@@ -1,0 +1,9 @@
+theme = "dark_plus"
+
+[editor]
+line-number = "relative"
+mouse = false
+true-color = true
+
+[editor.lsp]
+display-messages = true
