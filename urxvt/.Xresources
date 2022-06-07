@@ -4,9 +4,13 @@
 
 !! appearance
 Xft.dpi: 109
-URxvt*termName: rxvt-256color
-URxvt*font: xft:Hack Nerd Font Mono:pixelsize=12
-!!URxvt*font: xft:ProggyCleanTT:pixelsize=16
+URxvt*termName: rxvt-unicode-256color
+URxvt.color12: rgb:5c/5c/ff
+!!URxvt*font: xft:IBM Plex Mono:pixelsize=12
+!!URxvt*font: xft:JetBrainsMono Nerd Font:pixelsize=12
+!!URxvt*font: xft:Courier New:pixelsize=15
+!!URxvt*font: xft:SourceCodePro-Regular:pixelsize=13
+URxvt*font: xft:Terminus:pixelsize=14
 URxvt.boldFont:
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
