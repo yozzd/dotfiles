@@ -22,7 +22,7 @@ URxvt.saveline: 2048
 URxvt.depth: 0
 URxvt.iso14755: false
 URxvt.iso14755_52: false
-URxvt*geometry: 65x17
+URxvt*geometry: 130x40
 URxvt.internalBorder: 10
 URxvt*loginShell: true
 
