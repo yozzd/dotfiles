@@ -54,7 +54,6 @@ URxvt.iso14755_52: false
 URxvt*geometry: 130x40
 URxvt.internalBorder: 10
 URxvt*loginShell: true
-URxvt.intensityStyles: false
 
 !! navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007
