@@ -1,17 +1,46 @@
-*background:   #000000
-*foreground:   #eff0eb
-*cursorColor:  #ffffff
+*.foreground:     #abb2bf
+*.background:     #1e2127
+*.cursorColor:    #5c6370
+*.highlightColor: #3a3f4b
+
+
+! black
+*.color0:  #1e2127
+*.color8:  #5c6370
+
+! red
+*.color1:  #e06c75
+*.color9:  #e06c75
+
+! green
+*.color2:  #98c379
+*.color10: #98c379
+
+! yellow
+*.color3:  #d19a66
+*.color11: #d19a66
+
+! blue
+*.color4:  #61afef
+*.color12: #61afef
+
+! magenta
+*.color5:  #c678dd
+*.color13: #c678dd
+
+!cyan
+*.color6:  #56b6c2
+*.color14: #56b6c2
+
+!white
+*.color7:  #abb2bf
+*.color15: #ffffff
 
 !! appearance
 Xft.dpi: 109
 URxvt*termName: rxvt-unicode-256color
-URxvt.color12: rgb:5c/5c/ff
-!!URxvt*font: xft:IBM Plex Mono:pixelsize=12
-!!URxvt*font: xft:JetBrainsMono Nerd Font:pixelsize=12
-!!URxvt*font: xft:Courier New:pixelsize=15
-!!URxvt*font: xft:SourceCodePro-Regular:pixelsize=13
-URxvt*font: xft:Terminus:pixelsize=14
-URxvt.boldFont:
+URxvt*font: xft:Terminus:size=11:antialias=true:minspace=False
+!!URxvt.boldFont:
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.cursorBlink: false
@@ -25,6 +54,7 @@ URxvt.iso14755_52: false
 URxvt*geometry: 130x40
 URxvt.internalBorder: 10
 URxvt*loginShell: true
+URxvt.intensityStyles: false
 
 !! navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007
