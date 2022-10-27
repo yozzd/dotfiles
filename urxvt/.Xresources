@@ -1,12 +1,9 @@
 *.foreground:     #abb2bf
-*.background:     #1e2127
-*.cursorColor:    #5c6370
-*.highlightColor: #3a3f4b
-
+*.background:     #08090a
 
 ! black
-*.color0:  #1e2127
-*.color8:  #5c6370
+*.color0:  #08090a
+*.color8:  #454a54
 
 ! red
 *.color1:  #e06c75
@@ -40,7 +37,7 @@
 Xft.dpi: 109
 URxvt*termName: rxvt-unicode-256color
 URxvt*font: xft:Terminus:size=11:antialias=true:minspace=False
-!!URxvt.boldFont:
+URxvt.boldFont:
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.cursorBlink: false
