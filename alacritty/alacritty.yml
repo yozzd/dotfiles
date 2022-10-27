@@ -24,12 +24,14 @@ font:
     style: Italic
   bold_italic:
     family: Terminus
-    style: Bold Italic
+    style: Regular Italic
+
+draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
     background: '0x08090a'
-    foreground: '0xffffff'
+    foreground: '0xabb2bf'
   normal:
     black:   '0x08090a'
     red:     '0xe06c75'
@@ -38,9 +40,9 @@ colors:
     blue:    '0x61afef'
     magenta: '0xc678dd'
     cyan:    '0x56b6c2'
-    white:   '0xffffff'
+    white:   '0xabb2bf'
   bright:
-    black:   '0x131519'
+    black:   '0x454a54'
     red:     '0xe06c75'
     green:   '0x98c379'
     yellow:  '0xe5c07b'
